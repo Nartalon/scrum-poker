@@ -53,7 +53,7 @@ Template.layout.helpers({
         return Common.getUserName();
     },
     version() {
-        return version.get();
+        return ""; //version.get();
     },
     isHot() {
         const lastOpen = localStorage.getItem("lastOpen");
