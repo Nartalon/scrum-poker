@@ -12,7 +12,7 @@ import "./main.html";
 import "./session.html";
 import "./landing.html";
 import "./shareLink.html";
-import "./datenschutz.html";
+import "./datenschutz_ru.html";
 
 import "./features";
 
