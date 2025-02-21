@@ -132,6 +132,16 @@ Template.session.events({
         evt.preventDefault();
         createStory();
     },
+    "click .btn-import-story"(evt) {
+        if (!typeSelected()) {
+            return;
+        }
+        const event = evt.originalEvent;
+        eventUnderControl(event);
+        handleData(event.clipboardData);
+        $("#import-modal").modal("show");
+        $(".dropzone").removeClass("dragging");
+    },
     "keydown #inputStoryName"(evt) {
         if (evt.keyCode === 13) {
             evt.preventDefault();

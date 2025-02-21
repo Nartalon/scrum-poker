@@ -176,6 +176,11 @@ export const messages = {
                 en: "Add",
                 ru: "Добавить",
             },
+            btnImportStory: {
+                de: "Import",
+                en: "Import",
+                ru: "Импорт",
+            },
         },
         types: {
             choose: {
