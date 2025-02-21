@@ -20,7 +20,7 @@ export let sessionsHandle;
 export let storiesHandle;
 export let liveStatisticsHandle;
 
-let language = "ru";
+let language = "en";
 
 Meteor.startup(() => {
     Tracker.autorun(() => {
