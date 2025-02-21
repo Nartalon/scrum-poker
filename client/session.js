@@ -213,7 +213,8 @@ Template.session.events({
             return;
         }
         const event = evt.originalEvent;
-        if (!event.clipboardData.includes('\n')) {
+        let raw = event.clipboardData.getData("text/plain");
+        if (!raw.includes('\n')) {
             return;
         }
         eventUnderControl(event);
