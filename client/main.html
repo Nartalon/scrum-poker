@@ -29,24 +29,24 @@
             {{#if userName}}
             <span class="text-muted">{{MSG "layout.hello"}} {{userName}}!</span>
             {{/if}}
-            <a href="" class="featmodalopen" data-toggle="modal" data-target="#features-modal"> Features {{isHot}} </a>
-            <a href="/login">Einstellungen</a>
-            <a href="/datenschutz">Datenschutz</a>
+            <a href="" class="featmodalopen" data-toggle="modal" data-target="#features-modal"> Функции {{isHot}} </a>
+            <a href="/login">Настройки</a>
+            <a href="/datenschutz">Защита данных</a>
         </p>
         <p class="title">
             <i class="glyphicon glyphicon-th-large"></i>
-            Digital Scrum Poker
+            Цифровой Scrum Poker
         </p>
         <div>{{> yield}}</div>
     </div>
     {{> features}}
     <footer class="text-muted small">
         <hr />
-        Version: <span>{{version}}</span><br />
-        Please contribute at <a href="https://github.com/scyv/scrum-poker">Github</a> <br />
-        Powered by <a href="https://meteor.com">Meteor</a> <br />
-        Card images are from <a href="https://github.com/redbooth/scrum-poker-cards">here</a> and licensed under
-        <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons - Attribution (CC BY 3.0)</a>
+        Версия: <span>{{version}}</span><br />
+        Присоединяйтесь к разработке на <a href="https://github.com/scyv/scrum-poker">Github</a> <br />
+        Работает на <a href="https://meteor.com">Meteor</a> <br />
+        Изображения карт взяты <a href="https://github.com/redbooth/scrum-poker-cards">отсюда</a> и лицензированы по
+        <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons — Attribution (CC BY 3.0)</a>
     </footer>
 </template>
 
