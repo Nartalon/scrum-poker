@@ -7,8 +7,8 @@ const importData = new ReactiveVar([]);
 const importDataSelected = new ReactiveVar([]);
 
 const IMPORT_ROW_LIMIT = 50;
-const IMPORT_COLUMN_LIMIT = 10;
-const IMPORT_CELL_LENGTH_LIMIT = 50;
+const IMPORT_COLUMN_LIMIT = 20;
+const IMPORT_CELL_LENGTH_LIMIT = 150;
 
 export function handleData(data) {
     let storyInfos = [];
