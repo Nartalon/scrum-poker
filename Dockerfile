@@ -5,7 +5,7 @@ LABEL maintainer="scyv@posteo.de"
 ENV PORT=8080 \
     ROOT_URL="" \
     MAIL_URL="" \
-    MONGO_URL="" \
+    MONGO_URL="mongodb://nartalon:AGjcp8veG2hAHMhmw@galaxyadmin_galaxyfreedb-01.mongodb.galaxy-cloud.io:30025,galaxyadmin_galaxyfreedb-02.mongodb.galaxy-cloud.io:30025,galaxyadmin_galaxyfreedb-03.mongodb.galaxy-cloud.io:30025/scrumpocker-eu-meteorapp-com?replicaSet=galaxyadmin_galaxyfreedb&ssl=true" \
     SRC_PATH=./
 
 # Copy the app to the image
