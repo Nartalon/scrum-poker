@@ -106,7 +106,7 @@ Router.route(
             },
             estimate: {
                 displayName: session.type === "vote" ? "Evaluation" : "Estimate",
-                width: "10",
+                width: "15",
                 headerStyle: styles.header,
             },
         };
