@@ -23,7 +23,8 @@ services:
         ports:
             - 3000:8080
         environment:
-            - MONGO_URL=mongodb://nartalon:ukt9ritk9TAZAqrdy@galaxyadmin_galaxyfreedb-01.mongodb.galaxy-cloud.io:30025,galaxyadmin_galaxyfreedb-02.mongodb.galaxy-cloud.io:30025,galaxyadmin_galaxyfreedb-03.mongodb.galaxy-cloud.io:30025/nartalon-meteorapp-com?replicaSet=galaxyadmin_galaxyfreedb&ssl=true
+            - MONGO_URL=mongodb://mongodb:27017/poker
+            # mongodb://nartalon:AGjcp8veG2hAHMhmw@galaxyadmin_galaxyfreedb-01.mongodb.galaxy-cloud.io:30025,galaxyadmin_galaxyfreedb-02.mongodb.galaxy-cloud.io:30025,galaxyadmin_galaxyfreedb-03.mongodb.galaxy-cloud.io:30025/scrumpocker-eu-meteorapp-com?replicaSet=galaxyadmin_galaxyfreedb&ssl=true
             - ROOT_URL=http://localhost
             - MAIL_URL=smtp://user:pass@mailserver.example.com:25/
             - MAIL_FROM='Example Support <support@example.com>'
